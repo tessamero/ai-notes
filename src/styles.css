@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  /* Container configuration */
+  --container-padding: 1rem;
+  --container-max-width: 1280px;
+  
+  /* Spacing scale - Tailwind spacing already provides good defaults */
+  /* We'll use Tailwind's built-in spacing scale */
+  
+  /* Font sizes - Tailwind font sizes already provide good defaults */
+  /* We'll use Tailwind's built-in font sizes */
+  
+  /* Focus ring configuration */
+  --focus-ring-width: 2px;
+  --focus-ring-offset: 2px;
+}
+
+body {
+  @apply m-0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Focus visible styles - Removed custom utility classes as they're not used */
+/* Focus rings are applied directly in component classes using Tailwind utilities */

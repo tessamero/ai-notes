@@ -1,0 +1,14 @@
+{
+  "name": "summarize-note",
+  "version": "1.0.0",
+  "description": "Appwrite Function to summarize notes using local algorithm",
+  "main": "main.js",
+  "type": "module",
+  "dependencies": {
+    "node-appwrite": "^15.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
